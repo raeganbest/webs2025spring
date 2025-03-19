@@ -34,14 +34,53 @@ h3{
     font-size: 1.75rem;
 }
 
+a{
+    color: #2b930b;
+}
+
+
+a:hover,
+a:focus-visible{
+    color: #5f9b9f;
+}
+
+ul,
+ol{
+    list-style: circle;
+    color: black;
+}
+
+li{
+    margin-block: 5px;
+}
+
+
 section{
     margin-block: 100px;
 }
 
-footer{
+.teal-text{
+    color: #087a98;
+}
+
+.teal-bg{
+    color: #ffffff;
     padding: 20px;
+    border: #0b4a5a solid 10px;
+    background-color: #087a98;
+}
+
+.climber-bg{
+    color: #fff;
+    background-image: url("../images/simple-steps.jpg");
+    padding: 24px;
+    border: #0b4a5a solid 10px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+footer{
     text-align: center;
-    background-color: #22466c;
-    color: #ffff;
-    border: solid 10px #6e84cf;
 }
