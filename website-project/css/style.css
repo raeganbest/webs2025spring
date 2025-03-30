@@ -1,84 +1,138 @@
-
-header{
-    display: flex;
-    justify-content: space-between;
-    gap: 50px;
-    padding: 50px;
-}
-
-.primary-navigation ul{
-    display: flex;
-    gap: 20px;
-    list-style: none;
-    margin: 0; 
+*{
+    margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
-
-.primary-navigation a{
-    color: black;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.primary-navigation a:hover,
-.primary-navigation a:focus-visible{
-    color: rgb(112, 111, 111);
-}
-
 
 .wrapper{
-    max-inline-size: 1000px;
+    max-inline-size: 1400px;
     margin-inline: auto;
+
 }
 
-h1{
+.header{
+   min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../images/me.jpg);
+   background-position: center;
+   background-size: cover; 
+   position: relative;
+}
+
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.nav-links{
+    flex: 1;
+    text-align: right;
+}
+
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #8fc192;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+
+.styles-page{
+    min-height: 100vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url(../images/me.jpg);
+   background-position: center;
+   background-size: cover; 
+   position: relative;
+}
+
+.text-box{
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     text-align: center;
+}
+
+.text-box h1{
     font-size: 7.5rem;
+
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 1rem;
     color: #fff;
 }
 
-.me-bg{
-    background-image: url("../photos/me.jpg");
-    padding: 180px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.nav-links ul{
+    padding: 40px;
 }
 
 h2{
     text-align: center;
     font-size: 2.5rem;
+    padding: 80px;
 
 }
 
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-block-end: 60px;
+
+    @media(width > 720px){
+        grid-template-columns: 1fr 1fr;
+    }    
 }
 
 .winter{
     background-color: #7f94b1;
     color: #303a48;
-    padding: 100px;
+    padding: 90px;
 
 }
 
 .spring{
     background-color: #ffaed7;
     color: #ad3e76;
-    padding: 100px;
+    padding: 90px;
 }
 
 .summer{
-    background-color: #fbca7c;
-    color: #f79900;
-    padding: 100px;
+    background-color: #fbbb54ee;
+    color: #ffffff;
+    padding: 90px;
 }
 
 .fall{
-    background-color: #cf5230;
-    color: #f5bdad;
-    padding: 100px;
+    background-color: #92381e;
+    color: #e7b8ac;
+    padding: 90px;
 }
 
 a{
@@ -100,3 +154,327 @@ a:focus-visible{
 .sneaker-collection a:focus-visible{
     color: rgb(112, 111, 111);
 }
+
+
+img{
+    max-width: 30vw;
+}
+
+
+body{
+    background: #fff;
+}
+
+
+.gallery{
+    width: 1300px;
+    display: flex; 
+    overflow-x: scroll;
+}
+
+.gallery div{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.gallery div img{
+    filter: grayscale(100%);
+    transition: transform 0.5s; 
+}
+
+.gallery::-webkit-scrollbar{
+    display: none;
+}
+
+.gallery div img:hover{
+    filter: grayscale(0);
+    cursor: pointer; 
+    transform: scale(1,1);
+}
+
+.seasonal-styles-header{
+    min-height: 60vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)), url(../images/davies-designs-studio-q0VuRJvlOq4-unsplash.jpg);
+   background-position: center;
+   background-size: cover; 
+   position: relative;
+}
+
+
+.StylesH{
+    text-align: center;
+    padding: 8px;
+    color: #fff;
+    h1{
+        font-size: 5.5rem;
+        padding-top: 20px;
+    }
+    p{
+        font-size: 0.8rem;
+        padding-top: 20px;
+    }
+}
+
+.diff-seasons{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.style-col{
+    flex-basis: 32%;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.style-col img{
+    width: 100%;
+    padding: 5px;
+    padding-bottom: 10px;
+    height: 100%;
+}
+
+.layer{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover{
+    background: rgba(226, 213, 213, 0.4);
+}
+
+.layer h3{
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transform: 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+.winter-styles-header{
+    background-color: #7f94b1;
+    padding: .01px;
+}
+
+.winter-col{
+    flex-basis: 31%;
+    margin-bottom: 50%;
+    text-align: center;
+
+}
+
+.winter-col img{
+    width: 120%;
+    padding: 10px;
+}
+
+.winter-col p{
+    padding:0;
+}
+
+
+.WinterH{
+    text-align: center;
+    padding: 80px;
+    font-size: 2.5rem;
+}
+
+
+.winter-col a{
+    color: black;
+    text-decoration: underline;
+}
+
+.winter-col a:hover,
+.winter-col a:focus-visible{
+    color: #7f94b1;
+}
+
+
+
+.spring-styles-header{
+    background-color: #ffaed7;
+    padding: .01px;
+}
+
+.spring-col{
+    flex-basis: 31%;
+    margin-bottom: 50%;
+    text-align: center;
+
+}
+
+.spring-col img{
+    width: 120%;
+    padding: 10px;
+}
+
+.spring-col p{
+    padding:0;
+}
+
+
+.SpringH{
+    text-align: center;
+    padding: 80px;
+    font-size: 2.5rem;
+}
+
+
+.spring-col a{
+    color: black;
+    text-decoration: underline;
+}
+
+.spring-col a:hover,
+.spring-col a:focus-visible{
+    color: #ffaed7;
+}
+
+
+.summer-styles-header{
+    background-color: #fbbb54ee;
+    padding: .01px;
+}
+
+.summer-col{
+    flex-basis: 31%;
+    margin-bottom: 50%;
+    text-align: center;
+
+}
+
+.summer-col img{
+    width: 120%;
+    padding: 10px;
+}
+
+.summer-col p{
+    padding:0;
+}
+
+
+.SummerH{
+    text-align: center;
+    padding: 80px;
+    font-size: 2.5rem;
+}
+
+
+.summer-col a{
+    color: black;
+    text-decoration: underline;
+}
+
+.summer-col a:hover,
+.summer-col a:focus-visible{
+    color: #fbbb54ee;
+}
+
+
+
+.fall-styles-header{
+    background-color: #92381e;
+    padding: .01px;
+}
+
+.fall-col{
+    flex-basis: 31%;
+    margin-bottom: 50%;
+    text-align: center;
+
+}
+
+.fall-col img{
+    width: 120%;
+    padding: 10px;
+}
+
+.fall-col p{
+    padding:0;
+}
+
+
+
+.FallH{
+    text-align: center;
+    padding: 80px;
+    font-size: 2.5rem;
+}
+
+
+.fall-col a{
+    color: black;
+    text-decoration: underline;
+}
+
+.fall-col a:hover,
+.fall-col a:focus-visible{
+    color: #92381e;
+}
+
+
+
+.sneaker-collection-header{
+    min-height: 70vh;
+   width: 100%;
+   background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../images/case-hubbart-BdIKY3K0cGA-unsplash.jpg);
+   background-position: center;
+   background-size: cover; 
+   position: relative;
+}
+
+.sneakers{
+    width: 80%; 
+    margin: auto;
+    text-align: center;
+    padding-top: 100;
+}
+
+.sneakers-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sneakers-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+@media(max-width: 700px){
+    .row{
+        flex-direction: column;
+    }
+}
+
