@@ -2,14 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    .permanent-marker-regular {
+        font-family: "Permanent Marker", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
 }
 
 .wrapper{
-    max-inline-size: 1400px;
+    max-inline-size: 100vw;
     margin-inline: auto;
 
 }
 
+/* Homepage */
 .header{
    min-height: 100vh;
    width: 100%;
@@ -17,6 +24,7 @@
    background-position: center;
    background-size: cover; 
    position: relative;
+   font-family: "Permanent Marker", serif;
 }
 
 nav{
@@ -24,6 +32,7 @@ nav{
     padding: 2% 6%;
     justify-content: space-between;
     align-items: center;
+    height: 90px;
 }
 
 
@@ -49,7 +58,7 @@ nav{
     content: '';
     width: 0%;
     height: 2px;
-    background: #8fc192;
+    background: #fff;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -59,6 +68,7 @@ nav{
     width: 100%;
 }
 
+/* Homepage */
 .styles-page{
     min-height: 100vh;
    width: 100%;
@@ -93,47 +103,66 @@ nav{
     padding: 40px;
 }
 
+h1{
+    @media (width > 720px){
+        font-size: 4.5rem;
+    }
+    font-family: "Permanent Marker", serif;
+}
+
 h2{
     text-align: center;
     font-size: 2.5rem;
     padding: 80px;
+    font-family: "Permanent Marker", serif;
 
+}
+
+p{
+    font-family: serif;
 }
 
 .two-column{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-block-end: 60px;
-
+    
     @media(width > 720px){
         grid-template-columns: 1fr 1fr;
     }    
+
 }
 
 .winter{
     background-color: #7f94b1;
     color: #303a48;
-    padding: 90px;
+    padding: 60px;
+    font-family: "Amarante", serif;
 
 }
 
 .spring{
     background-color: #ffaed7;
     color: #ad3e76;
-    padding: 90px;
+    padding: 60px;
+    font-family: "Amarante", serif;
+
 }
 
 .summer{
     background-color: #fbbb54ee;
-    color: #fff;
-    padding: 90px;
+    color: #f67b24;
+    padding: 60px;
+    font-family: "Amarante", serif;
 }
 
 .fall{
     background-color: #92381e;
     color: #e7b8ac;
-    padding: 90px;
+    padding: 60px;
+    font-family: "Amarante", serif;
+    
 }
+
 
 a{
     color: inherit;
@@ -150,6 +179,7 @@ a:focus-visible{
     color: rgb(112, 111, 111);
 }
 
+
 .sneaker-collection a:hover,
 .sneaker-collection a:focus-visible{
     color: rgb(112, 111, 111);
@@ -165,9 +195,9 @@ body{
     background: #fff;
 }
 
-
+/* Sneaker Carousel */
 .gallery{
-    width: 1300px;
+    width: 100vw;
     display: flex; 
     overflow-x: scroll;
 }
@@ -196,6 +226,8 @@ body{
     transform: scale(1,1);
 }
 
+/* Seasonal-Styles Page */
+
 .seasonal-styles-header{
     min-height: 60vh;
    width: 100%;
@@ -203,8 +235,8 @@ body{
    background-position: center;
    background-size: cover; 
    position: relative;
+   font-family: "Permanent Marker", serif;
 }
-
 
 .StylesH{
     text-align: center;
@@ -218,6 +250,7 @@ body{
         font-size: 0.8rem;
         padding-top: 20px;
     }
+    
 }
 
 .diff-seasons{
@@ -237,7 +270,7 @@ body{
 .style-col img{
     width: 100%;
     padding: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
     height: 100%;
 }
 
@@ -266,6 +299,7 @@ body{
     position: absolute;
     opacity: 0;
     transform: 0.5s;
+    font-family: "Permanent Marker", serif;
 }
 
 .layer:hover h3{
@@ -273,15 +307,15 @@ body{
     opacity: 1;
 }
 
-
+/* Winter Page */
 .winter-styles-header{
     background-color: #7f94b1;
-    padding: .01px;
+    font-family: "Permanent Marker", serif;
 }
 
 .winter-col{
     flex-basis: 31%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     text-align: center;
 
 }
@@ -298,7 +332,8 @@ body{
 
 .WinterH{
     text-align: center;
-    padding: 80px;
+    padding: 50px;
+    padding-bottom: 0%;
     font-size: 2.5rem;
 }
 
@@ -314,15 +349,15 @@ body{
 }
 
 
-
+/* Spring Page */
 .spring-styles-header{
     background-color: #ffaed7;
-    padding: .01px;
+    font-family: "Permanent Marker", serif;
 }
 
 .spring-col{
     flex-basis: 31%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     text-align: center;
 
 }
@@ -339,7 +374,8 @@ body{
 
 .SpringH{
     text-align: center;
-    padding: 80px;
+    padding: 50px;
+    padding-bottom: 0%;
     font-size: 2.5rem;
 }
 
@@ -354,15 +390,15 @@ body{
     color: #ffaed7;
 }
 
-
+/* Summer Page */
 .summer-styles-header{
     background-color: #fbbb54ee;
-    padding: .01px;
+    font-family: "Permanent Marker", serif;
 }
 
 .summer-col{
     flex-basis: 31%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     text-align: center;
 
 }
@@ -379,7 +415,8 @@ body{
 
 .SummerH{
     text-align: center;
-    padding: 80px;
+    padding: 50px;
+    padding-bottom: 0%;
     font-size: 2.5rem;
 }
 
@@ -395,15 +432,15 @@ body{
 }
 
 
-
+/* Fall Page*/
 .fall-styles-header{
     background-color: #92381e;
-    padding: .01px;
+    font-family: "Permanent Marker", serif;
 }
 
 .fall-col{
     flex-basis: 31%;
-    margin-bottom: 50%;
+    margin-bottom: 10%;
     text-align: center;
 
 }
@@ -418,10 +455,10 @@ body{
 }
 
 
-
 .FallH{
     text-align: center;
-    padding: 80px;
+    padding: 50px;
+    padding-bottom: 0%;
     font-size: 2.5rem;
 }
 
@@ -437,14 +474,15 @@ body{
 }
 
 
-
+/* Sneaker Page */
 .sneaker-collection-header{
-    min-height: 70vh;
+    min-height: 60vh;
    width: 100%;
-   background-image: linear-gradient(rgba(4,9,30,0.5),rgba(4,9,30,0.5)), url(../images/case-hubbart-BdIKY3K0cGA-unsplash.jpg);
+   background-image: linear-gradient(rgba(4,9,30,0.65),rgba(4,9,30,0.65)), url(../images/case-hubbart-BdIKY3K0cGA-unsplash.jpg);
    background-position: center;
    background-size: cover; 
    position: relative;
+   font-family: "Permanent Marker", serif;
 }
 
 .sneakers{
@@ -478,3 +516,36 @@ body{
     }
 }
 
+
+/* Seasons Navigation */
+.nav-links-seasons{
+    flex: 1;
+    text-align: center;
+}
+
+.nav-links-seasons ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+
+.nav-links-seasons ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.nav-links-seasons ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links-seasons ul li:hover::after{
+    width: 100%;
+}
