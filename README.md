@@ -55,20 +55,28 @@ For my final draft, I had only a few little touchups I had to do. I fixed some m
 
 
 ### Aspirational Inspirations
-Dynamism
+**Dynamism**
+
 ✅Use responsive design (e.g. @media queries, flex-wrap, auto-fill, etc) to dynamically resize elements based on viewport width
 
 ✅Animate HTML elements via CSS or JavaScript (e.g. image carousel, @keyframes, :hover / :focus events, etc)
-- [Gallery](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Gallery.mov)
-- [Navigation Hover](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Navigation%20Hover.mov)
-- [Seasons Hover](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Seasons%20Hover.mov)
+- [Gallery]
+- [Navigation Hover]
+- [Seasons Hover]
 
-Coding
+**Coding**
+
 ✅Use Flexbox or Grid layouts
 
 ✅Use classes shared across multiple elements to minimze repetition in your CSS
 
 ✅Add comments, whitespace, and other formatting to code to make it more readable
+
+**Audience Engagement**
+
+✅Use non-default fonts, drawing on visual unit knowledge
+
+✅Use best practices for accessible design (see W3's Four Principles and the WAVE web accessibility evaluation tool)
 
 
 
