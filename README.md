@@ -2,7 +2,7 @@
 Note: All the major components for my projet can be found in the **docs folder** and the homepage for my website can be accessed through the **index.html file**.
 
 ## About the Website
-For my project, I decided to create a fashion website. The look of it is similar to that of fashion blogs and clothing sites, and includes highlights of my favorite shoes and outfit combinations. I decided to take this route because fashion is a major means through which I express myself, but before this, I hadn't really taken the time to document my outfits and collection. Thus, I took advantage of this assignment to do so. 
+For my project, I decided to create a fashion website. The look of it is similar to that of fashion blogs and clothing sites, and includes highlights of my favorite shoes and outfit combinations. I decided to take this route because fashion is a major means through which I express myself, but before this, I hadn't really taken the time to document my outfits and collection. The main function I wanted for my website was not only to showcase my wardrobe, but to also give users links to follow if they want to obtain one of the pieces themseles (and while I used direct links for some pieces, others were just attributed to the store I got them from to at least give them some direction).
 
 ## Creative Process
 When it came to the planning stage for my site, I spent a lot of time looking through Pinterest for inspiration on how to structure it. I knew how I wanted to arrange the clothes for the photos (something I also gotten inspiration from with my own Pinterest boards), but after scrolling through the website ideas they had I stumbled across a few that I really liked ([Example 1](https://www.pinterest.com/pin/9218374232126216/), [Example 2](https://www.pinterest.com/pin/808818414359924402/)). Now using these ones as inspiration was incredibly ambitious, especially since I had never worked with HTML and CSS before this, but nonetheless I was hoping to achieve a design that mirrored those ones to some extent. 
@@ -35,6 +35,23 @@ For my final draft, I had only a few little touchups I had to do. I fixed some m
 
 ## Generative Contraints
 ### Baseline Criteria
+✅Use arrangement, size, color, visual rhythm, and/or contrast to focus viewers' attention.
+- For every page, the title was made using h1 to make it stand out and bigger than the rest of the text. H2 was used on the homepage to differentiate the different navigable pages within the website, and h3 was used solely on the Seasonal Styles page to divide up the different seasons. All pages also used used paragraph text for captions/descriptions. Color was also utilized to draw more attention to certain text, along with drawing correlation to certain elements. For instance, the box on the mainpage for winter is blue, with that same blue marking the header of the Winter page and the hover color for the links.  
+
+✅Include at least 3 navigable html locations (separate pages or distinct scrolling locations on the same page)
+
+✅Include a sitewide CSS stylesheet (i.e. an organized visual theme)
+
+✅Link internally from all pages (no dead ends)
+
+✅Include at least one licensed or fair-use image, with alt text
+
+✅Credit all assets correctly on the site itself (or link to credits in the repo), including Title, Author, Source, and License
+
+✅Successfully load all elements in a web browser, at least locally (i.e. file paths should work on any computer)
+
+✅Use meaningful commit messages that say what’s changing (or even why)
+
 
 
 ### Aspirational Inspirations
