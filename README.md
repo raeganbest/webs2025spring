@@ -13,7 +13,7 @@ For the first few weeks, a majority of my time was spent strictly focusing on th
 
 <img width="1370" alt="Early Stages Homepage (2)" src="https://github.com/user-attachments/assets/f7575a05-8d2a-4404-9853-d4e2cf3edd2b" />
 
-When it came to preparing my full draft, I had a lot more work to do. I consulted with a lot of YouTube tutorials to help me, starting with one from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=WL&index=13&t=896s). This tutorial was fundamental for helping me make my homepage, especially in terms of the background image in the header and hover effect in the navbar. I also used this tutorial for the Seasonal Styles page where I encorporated a layer and hover effect over the links and images to the season subpages, and to help me arrange the images of the shoes and the outfits. For the sneaker gallery on the homepage, I used a tutorial from [CodingNepal](https://www.youtube.com/watch?v=PsNaoDhzQm0&list=WL&index=20&t=485s) to make the gallery, and a different one from [GreatStack](https://www.youtube.com/watch?v=gzXyRa7jwk4&list=WL&index=22) to make it more dynamic and change colors. Composing the additional pages, along with editing little things like links, padding, and texts, was more simple using what I learned from Kevin Powell. This was what my full draft looked like. 
+When it came to preparing my full draft, I had a lot more work to do. I consulted with a lot of YouTube tutorials to help me, starting with one from [GreatStack](https://www.youtube.com/watch?v=oYRda7UtuhA&list=WL&index=13&t=896s). This tutorial was fundamental for helping me make my homepage, especially in terms of the background image in the header and hover effect in the navbar. I also used this tutorial for the Seasonal Styles page where I encorporated a layer and hover effect over the links and images to the season subpages, and to help me arrange the images of the shoes and the outfits. For the sneaker gallery on the homepage, I used a tutorial from [CodingNepal](https://www.youtube.com/watch?v=PsNaoDhzQm0&list=WL&index=20&t=485s) to make the gallery, and a different one from [GreatStack](https://www.youtube.com/watch?v=gzXyRa7jwk4&list=WL&index=22) to make it more dynamic and change colors. Composing the additional pages, along with editing little things like links, padding, and texts, was more simple using what I learned from Kevin Powell. This was what my full draft homepage looked like:
 
 <img width="1389" alt="Full Draft Hompage" src="https://github.com/user-attachments/assets/7b90f93b-2758-4fac-8254-24785d8eaecf" />
 
@@ -21,9 +21,17 @@ When it came to preparing my full draft, I had a lot more work to do. I consulte
 
 <img width="1378" alt="Full Draft Hompage (3)" src="https://github.com/user-attachments/assets/8bbc169e-8de3-4016-b47e-1e5bd43d7e19" />
 
+
 [Link to Draft CSS](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Full%20Draft/Full%20Draft%20HTML%20and%20CSS.mov)
 
 For my final draft, I had only a few little touchups I had to do. I fixed some more sizing and spacing issues, along with changed my text fonts and colors. As a finished product here is the official homepage for my site:
+
+<img width="1427" alt="Final Homepage (1)" src="https://github.com/user-attachments/assets/13ab899f-4233-4c18-a1e9-983590be2e78" />
+
+<img width="1427" alt="Final Homepage (2)" src="https://github.com/user-attachments/assets/08181f72-13a2-41fb-aa4c-d83b87d8e2eb" />
+
+<img width="1427" alt="Screenshot 2025-04-04 at 12 27 38 AM" src="https://github.com/user-attachments/assets/3f0b1715-95d7-4014-b36c-9b6ba5b39c2a" />
+
 
 ## Generative Contraints
 ### Baseline Criteria
