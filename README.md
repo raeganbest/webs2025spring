@@ -1,5 +1,5 @@
 # Best Fits
-Note: All the major components of my project can be found in the **docs folder** and the homepage of my website can be accessed through the **index.html file**.
+Note: All the major components of my project can be found in the **docs folder** (other than assets which is not in a folder) and the homepage of my website can be accessed through the **index.html file**.
 
 ## About the Website
 For my project, I decided to create a fashion website. The look of it is similar to that of fashion blogs and clothing sites, and includes highlights of my favorite shoes and outfit combinations. I decided to take this route because fashion is a major means through which I express myself, but before this, I hadn't really taken the time to document my outfits and collections. The main function I wanted for my website was not only to showcase my wardrobe, but to also give users links to follow if they want to obtain one of the pieces themselves (and while I used direct links for some pieces, others were just attributed to the store I got them from to at least give them some direction).
@@ -60,9 +60,9 @@ For my final draft, I had only a few little touchups I had to do. I fixed some m
 ✅Use responsive design (e.g. @media queries, flex-wrap, auto-fill, etc) to dynamically resize elements based on viewport width
 
 ✅Animate HTML elements via CSS or JavaScript (e.g. image carousel, @keyframes, :hover / :focus events, etc)
-- [Gallery]
-- [Navigation Hover]
-- [Seasons Hover]
+- [Gallery](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Gallery.mov)
+- [Navigation Hover](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Navigation%20Hover.mov)
+- [Seasons Hover](https://github.com/raeganbest/webs2025spring/blob/main/docs/Progress%20Photos/Final%20Draft/Seasons%20Hover.mov)
 
 **Coding**
 
