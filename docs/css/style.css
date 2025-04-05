@@ -136,7 +136,7 @@ p{
     background-color: #7f94b1;
     color: #303a48;
     padding: 60px;
-    font-family: "Amarante", serif;
+    font-family: "Permanent Marker", serif;
 
 }
 
@@ -144,7 +144,7 @@ p{
     background-color: #ffaed7;
     color: #ad3e76;
     padding: 60px;
-    font-family: "Amarante", serif;
+    font-family: "Permanent Marker", serif;
 
 }
 
@@ -152,14 +152,14 @@ p{
     background-color: #fbbb54ee;
     color: #f67b24;
     padding: 60px;
-    font-family: "Amarante", serif;
+    font-family: "Permanent Marker", serif;
 }
 
 .fall{
     background-color: #92381e;
     color: #e7b8ac;
     padding: 60px;
-    font-family: "Amarante", serif;
+    font-family: "Permanent Marker", serif;
     
 }
 
@@ -195,7 +195,7 @@ body{
     background: #fff;
 }
 
-/* Sneaker Carousel */
+/* Sneaker Gallery */
 .gallery{
     width: 100vw;
     display: flex; 
