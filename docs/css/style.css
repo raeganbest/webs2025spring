@@ -244,11 +244,11 @@ body{
     color: #fff;
     h1{
         font-size: 5.5rem;
-        padding-top: 20px;
+        padding-top: 40px;
+        padding-bottom: 5px;
     }
     p{
         font-size: 0.8rem;
-        padding-top: 20px;
     }
     
 }
@@ -288,7 +288,7 @@ body{
     background: rgba(226, 213, 213, 0.4);
 }
 
-.layer h3{
+.layer p{
     width: 100%;
     font-weight: 500;
     color: #fff;
@@ -302,8 +302,8 @@ body{
     font-family: "Permanent Marker", serif;
 }
 
-.layer:hover h3{
-    bottom: 49%;
+.layer:hover p{
+    bottom: 50%;
     opacity: 1;
 }
 
@@ -318,6 +318,13 @@ body{
     margin-bottom: 10%;
     text-align: center;
 
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
 
 .winter-col img{
@@ -328,15 +335,6 @@ body{
 .winter-col p{
     padding:0;
 }
-
-
-.WinterH{
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 0%;
-    font-size: 2.5rem;
-}
-
 
 .winter-col a{
     color: black;
@@ -360,6 +358,13 @@ body{
     margin-bottom: 10%;
     text-align: center;
 
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
 
 .spring-col img{
@@ -370,15 +375,6 @@ body{
 .spring-col p{
     padding:0;
 }
-
-
-.SpringH{
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 0%;
-    font-size: 2.5rem;
-}
-
 
 .spring-col a{
     color: black;
@@ -401,6 +397,13 @@ body{
     margin-bottom: 10%;
     text-align: center;
 
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
 
 .summer-col img{
@@ -411,15 +414,6 @@ body{
 .summer-col p{
     padding:0;
 }
-
-
-.SummerH{
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 0%;
-    font-size: 2.5rem;
-}
-
 
 .summer-col a{
     color: black;
@@ -436,6 +430,7 @@ body{
 .fall-styles-header{
     background-color: #92381e;
     font-family: "Permanent Marker", serif;
+    
 }
 
 .fall-col{
@@ -443,6 +438,13 @@ body{
     margin-bottom: 10%;
     text-align: center;
 
+    h2{
+        text-align: center;
+        font-size: 1rem;
+        font-family: serif;
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
 
 .fall-col img{
@@ -453,15 +455,6 @@ body{
 .fall-col p{
     padding:0;
 }
-
-
-.FallH{
-    text-align: center;
-    padding: 50px;
-    padding-bottom: 0%;
-    font-size: 2.5rem;
-}
-
 
 .fall-col a{
     color: black;
@@ -497,6 +490,12 @@ body{
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: center;
+
+    p{
+        text-align: center;
+        font-size: 1.1rem;
+        font-family: serif;
+    }
 }
 
 .row{
@@ -527,6 +526,7 @@ body{
     list-style: none;
     display: inline-block;
     padding: 8px 12px;
+    padding-top: 0%;
     position: relative;
 }
 
@@ -548,4 +548,15 @@ body{
 
 .nav-links-seasons ul li:hover::after{
     width: 100%;
+}
+
+
+.SeasonsH{
+    text-align: center;
+    h1{
+        font-size: 4.5rem;
+        font-family: "Permanent Marker", serif;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
 }
